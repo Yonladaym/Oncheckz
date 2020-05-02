@@ -77,7 +77,7 @@
         <!-- card ประวัติเช็คชื่อ -->
         <div
           class="d-flex align-items-center flex-column"
-          style="margin-top:15px; overflow: scroll; width:100%;"
+          style="margin-top:15px; overflow-y: auto; width:100%;"
         >
           <div
             class="card border-0 rounded-pill"

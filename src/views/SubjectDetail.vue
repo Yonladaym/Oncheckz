@@ -76,7 +76,7 @@
         <!-- card รายชื่อนักศึกษา -->
         <div
           class="d-flex align-items-center flex-column"
-          style="margin-top:15px; overflow: scroll; width:100%;"
+          style="margin-top:15px; overflow-y: scroll; width:100%;"
         >
           <div
             class="card border-0 rounded-pill"
