@@ -59,8 +59,8 @@
       </div>
 
       <div class="down d-flex flex-column justify-center align-self-center" style="width:90%">
-        <h4 class="text-center">กรุณาใส่เลข 5 หลัก <br>{{$route.params.id}}</h4>
-        <br />
+        <h4 class="text-center">กรุณาใส่เลข 5 หลัก</h4>
+        
         <input type="text" class="form-control" v-model="code"/>
         <div class="d-flex justify-center">
           <v-btn width="100" height="50" color="#B9CFA0" style="margin:16px" elevation="3" @click="SubmitClass()">
