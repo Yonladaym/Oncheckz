@@ -59,7 +59,7 @@
       </div>
 
       <div class="down d-flex flex-column justify-center align-self-center" style="width:90%">
-        <h4 class="text-center">กรุณาใส่เลข 4 หลัก <br>{{$route.params.id}}</h4>
+        <h4 class="text-center">กรุณาใส่เลข 5 หลัก <br>{{$route.params.id}}</h4>
         <br />
         <input type="text" class="form-control" v-model="code"/>
         <div class="d-flex justify-center">
