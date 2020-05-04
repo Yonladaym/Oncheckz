@@ -6,7 +6,7 @@
       prominent
     >
       <v-toolbar-title>
-        <img src="../assets/logo2.svg" width="150px" @click="goHome()"/>
+        <img src="../assets/logo2.svg" width="150px" @click="goHome()" />
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -68,7 +68,9 @@
             :menu-props="{ bottom: true, offsetY: true }"
             label="รายวิชา"
           ></v-select>
-          <v-btn @click="search()">Search</v-btn>
+          <div class="d-flex justify-content-end">
+            <v-btn @click="search()">Search</v-btn>
+          </div>
         </div>
         <div class="d-flex justify-content-between" style="margin-top:30px;">
           <h5 class="text-left" style="opacity:0.5">ประวัติการเช็คชื่อ</h5>
