@@ -56,6 +56,7 @@
         <div class="align-self-center text-center mrg-t">
           <HomePhoto></HomePhoto>
           <h6>{{course.courseName}}</h6>
+          <h6>Password: {{course.coursePswd}}</h6>
         </div>
         <div class="d-flex align-items-center flex-column">
           <v-btn
