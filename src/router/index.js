@@ -78,7 +78,7 @@ Vue.use(VueRouter)
     component: DashboardStudent
   },
   {
-    path: '/dashboardTeacher/:id',
+    path: '/dashboardTeacherNoar/:id',
     name: 'DashboardTeacher',
     component: DashboardTeacher
   }
