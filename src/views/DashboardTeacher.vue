@@ -171,7 +171,7 @@ export default {
       this.$router.push({ name: "HomeTeacher" });
     },
     goDashboard() {
-      this.$router.push({ name: "DashboardTeacher" });
+      this.$router.push({ name: "DashboardTeacherNoPar" });
     },
     async logOut() {
       await firebase.auth().signOut();
